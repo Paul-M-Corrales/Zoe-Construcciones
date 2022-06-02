@@ -476,4 +476,8 @@ ul li a{
 .shake-horizontal{
   font-size: 20px;
 }
+ul li a{
+  padding: 0;
+  font-weight: bold;
+}
 }
