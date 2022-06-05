@@ -10,16 +10,23 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: aliceblue;
 }
-.contenedor{  
-  background-image:url(../imagenes/back.jpg);
-  background-repeat: no-repeat;
-  background-position: 100%;
-  }
+.img1{
+  width: 60vh;
+}
+.carousel-inner{
+  display: flex;
+  justify-content: flex-start;
+}
+.carousel{
+  display: grid;
+  justify-content: center;
+}
  
 .contenedor__div{
   display: grid;
-  grid-template-columns: 5fr 50fr 5fr; 
+  grid-template-columns: 5fr 5fr; 
   align-items: center;
 }
 .header__nav{
@@ -190,12 +197,16 @@ ul li a{
             transform: translateX(-8px);
   }
 }
+.div__parrafo{
+  display: flex;
+  align-items: center;
+}
 
 .parrafo_principal {
+  display: flex;
   text-align: center;
-  padding: 100px 1rem;
   font-size: 40px;
-  color:beige;
+  color: black;
 }
 
 .footer {  
@@ -207,9 +218,9 @@ ul li a{
 }
 
 .redes {
-  width: 30px;
+  width: 40px;
   position: absolute;
-  right: 85%;
+  right: 80%;
 }
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -359,9 +370,8 @@ ul li a{
   }
   .parrafo_principal {
     text-align: center;
-    padding: 100px 1rem;
     font-size:40px;
-    color:white;
+    color:black;
   }
   .redes{display: none;}
   .nosotros__titulo {
@@ -371,7 +381,7 @@ ul li a{
   }
 
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 767px){
   .logo{
     height: 50px;}
   .contenedor__div{
@@ -393,9 +403,8 @@ ul li a{
   }
   .parrafo_principal {
     text-align: center;
-    padding: 100px 1rem;
-    font-size: 15px;
-    color:white;
+    font-size: 30px;
+    color:black;
   }
   .redes{display: none;}
   .nosotros__titulo {
@@ -434,6 +443,11 @@ ul li a{
     padding: 0;
     font-weight: bold;
   }
+  .carousel-inner {
+    display: flex;
+    flex-direction: column;
+}
+ 
 
 }
 @media screen and (max-width:380px){
@@ -459,7 +473,7 @@ ul li a{
   .parrafo_principal {
     text-align: center;
     font-size: 10px;
-    color:white;
+    color:black;
   }
   .redes{display: none;}
   .boton {
@@ -521,5 +535,9 @@ ul li a{
 ul li a{
   padding: 0;
   font-weight: bold;
+}
+.carousel-inner {
+  display: flex;
+  flex-direction: column;
 }
 }
