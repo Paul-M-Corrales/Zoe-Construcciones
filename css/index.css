@@ -6,6 +6,9 @@
 html{
   height: 100%;
 }
+header{
+  background-color: #1b263b;
+}
 body{
   display: flex;
   flex-direction: column;
@@ -59,7 +62,7 @@ ul li a{
   -webkit-animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   font-size: 40px;
-  background-color: orange;
+  background-color: #1b263b;
   color: aliceblue;
   text-align: center;  
 }
@@ -116,14 +119,14 @@ ul li a{
 .header__secundario {
   font-size: 30px;
   margin-top: 0px;
-  background-color: orange;
+  background-color: #1b263b;
   color: aliceblue;
   text-align: center;
 }
 .shake-horizontal {
   font-size: 30px;
   margin-top: 0px;
-  background-color: orange;
+  background-color: #1b263b;
   color: aliceblue;
   text-align: center;
 	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 3s both;
@@ -197,6 +200,9 @@ ul li a{
             transform: translateX(-8px);
   }
 }
+.carousel-inner{
+  background-image: url(../imagenes/background.jpg);
+}
 .div__parrafo{
   display: flex;
   align-items: center;
@@ -206,7 +212,14 @@ ul li a{
   display: flex;
   text-align: center;
   font-size: 40px;
-  color: black;
+  color:white;
+}
+.pago{
+  padding-top: 3rem;
+  background-color: #e0e1dd;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .footer {  
@@ -371,7 +384,7 @@ ul li a{
   .parrafo_principal {
     text-align: center;
     font-size:40px;
-    color:black;
+    color:white;
   }
   .redes{display: none;}
   .nosotros__titulo {
@@ -404,7 +417,7 @@ ul li a{
   .parrafo_principal {
     text-align: center;
     font-size: 30px;
-    color:black;
+    color: white;
   }
   .redes{display: none;}
   .nosotros__titulo {
@@ -473,7 +486,7 @@ ul li a{
   .parrafo_principal {
     text-align: center;
     font-size: 10px;
-    color:black;
+    color:white;
   }
   .redes{display: none;}
   .boton {
@@ -518,14 +531,14 @@ ul li a{
   -webkit-animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   font-size: 30px;
-  background-color: orange;
+  background-color: #1b263b;
   color: aliceblue;
   text-align: center;  
 }
 .header__secundario {
   font-size: 20px;
   margin-top: 0px;
-  background-color: orange;
+  background-color: #1b263b;
   color: aliceblue;
   text-align: center;
 }
