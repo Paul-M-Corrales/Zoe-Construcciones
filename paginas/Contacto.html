@@ -41,9 +41,22 @@
            
            <div class="formulario">  
             <form action="" method="get">  
-    Nombre <input class="controls" type="text" name="Nombre" id="Nombre">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre</span>
+                    <input type="text" class="form-control" placeholder="nombre completo" aria-label="name" aria-describedby="basic-addon1">
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">@ejemplo.com</span>
+                  </div>  
+
+                  <div class="input-group">
+                    <span class="input-group-text">Dejanos tu mensaje</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>    
     Numero de Telefono <input class="controls" type="number" name="Telefono" id="Telefono">    
-    Email <input class="controls" type="email" name="email" id="email">    
+      
        
     <button class="boton">Enviar</button>      
            </form>

@@ -291,10 +291,11 @@ ul li a{
   text-align: center;
 }
 
-.steel__ventajas {
+.img-fluid {
+  padding-top: 3rem;
   display: block;
   margin: auto;
-  width: 150px;
+  width: 400px;
 }
 
 .steel__titulo {
@@ -305,8 +306,8 @@ ul li a{
 
 .steel__complemento {
   margin: 10px 10px;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
 }
 
 .steel__parrafos {
@@ -362,7 +363,7 @@ ul li a{
 }
 
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1430px){
   .logo{
     height: 50px;}
   .contenedor__div{
@@ -392,9 +393,20 @@ ul li a{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   }
+  .obras__section {
+    display: grid;
+    justify-items: stretch;
+    width: 100%;
+}
+.steel__complemento {
+  margin: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
 
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   .logo{
     height: 50px;}
   .contenedor__div{
@@ -445,6 +457,7 @@ ul li a{
     margin: 10px 10px;
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .steel__parrafos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -460,7 +473,6 @@ ul li a{
     display: flex;
     flex-direction: column;
 }
- 
 
 }
 @media screen and (max-width:380px){
@@ -552,5 +564,13 @@ ul li a{
 .carousel-inner {
   display: flex;
   flex-direction: column;
+}
+.formulario {
+  color: aliceblue;
+  background-color: #443032;
+  padding: 0;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
 }
 }
