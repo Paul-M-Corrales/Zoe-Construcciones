@@ -7,7 +7,7 @@ html{
   height: 100%;
 }
 header{
-  background-color: #1b263b;
+  background-image: url(../imagenes/background.jpg);
 }
 body{
   display: flex;
@@ -15,9 +15,12 @@ body{
   min-height: 100vh;
   background-color: aliceblue;
 }
-.img1{
-  width: 60vh;
+.d-block {
+  width: 800px;
+  height:500px;
 }
+  
+
 .carousel-inner{
   display: flex;
   justify-content: flex-start;
@@ -200,9 +203,7 @@ ul li a{
             transform: translateX(-8px);
   }
 }
-.carousel-inner{
-  background-image: url(../imagenes/background.jpg);
-}
+
 .div__parrafo{
   display: flex;
   align-items: center;
@@ -221,7 +222,12 @@ ul li a{
   justify-content: center;
   justify-content: space-evenly;
 }
-
+img.card-img-top {
+  height: 200px;
+}
+.card-body {
+  background-color: bisque;
+}
 .footer {  
   color: aliceblue;
   background-color: black;
@@ -401,7 +407,7 @@ ul li a{
 .steel__complemento {
   margin: 10px 10px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2,1fr);
   justify-items: center;
 }
 
@@ -425,6 +431,12 @@ ul li a{
     display: flex;
     flex-direction: column; 
      
+  }
+  .pago{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  padding-bottom: 3rem;
+  justify-items: center;
   }
   .parrafo_principal {
     text-align: center;
@@ -456,7 +468,7 @@ ul li a{
   .steel__complemento {
     margin: 10px 10px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2,1fr);
     justify-items: center;
   }
   .steel__parrafos {
@@ -473,14 +485,16 @@ ul li a{
     display: flex;
     flex-direction: column;
 }
-
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
 }
-@media screen and (max-width:380px){
+}
+@media screen and (max-width:426px){
   .logo{
     height: 50px;}
   .contenedor__div{
-      display: grid;   
-           
+      display: grid;             
   }
   .menu{
     text-decoration: none;
@@ -492,8 +506,12 @@ ul li a{
   .header__ul{  
     list-style: none;
     display: flex;
-    flex-direction: column; 
-     
+    flex-direction: column;      
+  }
+  .pago{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
   }
   .parrafo_principal {
     text-align: center;
@@ -561,10 +579,7 @@ ul li a{
   padding: 0;
   font-weight: bold;
 }
-.carousel-inner {
-  display: flex;
-  flex-direction: column;
-}
+
 .formulario {
   color: aliceblue;
   background-color: #443032;
@@ -572,5 +587,16 @@ ul li a{
   margin-top: 50px;
   border-radius: 4px;
   font-family: 'calibri';
+}
+header{
+  background-image: none
+}
+.carousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+.d-block {
+  width: 300px;
+  height: 400px;
 }
 }
