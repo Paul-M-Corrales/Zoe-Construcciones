@@ -1,0 +1,23 @@
+{
+  "name": "coder-paul-corrales",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-M-Corrales/Zoe-Construcciones.git"
+  },
+  "author": "Paul Corrales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-M-Corrales/Zoe-Construcciones/issues"
+  },
+  "homepage": "https://github.com/Paul-M-Corrales/Zoe-Construcciones#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

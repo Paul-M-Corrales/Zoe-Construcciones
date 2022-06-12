@@ -643,6 +643,10 @@ a {
     display: flex;
     flex-direction: row;
   }
+  .hover h1{
+    font-size: 0.5rem;
+     
+  }
 }
 
 @media screen and (max-width:426px) {
@@ -806,5 +810,9 @@ a {
 
   .galeria__item:nth-child(7) {
     grid-row-start: span 1;
+  }
+  .hover h1{
+    font-size: 0.5rem;
+     
   }
 }
