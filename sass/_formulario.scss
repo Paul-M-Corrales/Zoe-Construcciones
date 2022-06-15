@@ -1,0 +1,27 @@
+.contacto {
+    text-align: center;
+    font-size: $font30;
+  }
+  
+  .formulario {
+    color: $color;
+    background-color: $backformulario;
+    padding: 30px 100px;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+  
+  &_controls {
+    border: 2px solid black;
+    width:100%;
+    background-color: whitesmoke;
+    padding: 0 100px;
+  }
+  
+  &_boton {
+    width: 30%;
+    margin-top: 12px;
+    border: 2px solid $black;
+    background-color: darkgrey;
+  }
+}

@@ -1,0 +1,15 @@
+
+.carousel-inner {
+    display: flex;
+    justify-content: flex-start;
+}
+.carousel {
+    display: grid;
+    justify-content: center;
+    background-image: url(../imagenes/background.jpg);
+}
+.d-block {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}

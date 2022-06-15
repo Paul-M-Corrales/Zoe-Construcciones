@@ -1,0 +1,44 @@
+.contenedor__div {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    align-items: center;
+  }
+  .steel {
+    width: 100%;
+    background-image: url(../imagenes/background.jpg);
+  
+  
+  .img-fluid {
+    display: block;
+    margin: auto;
+    width: 500px;
+  }
+  
+  &__titulo {
+    text-align: center;
+    font-size: $font40;
+    font-family: $family;
+    color: white;
+    padding-top: 1rem;
+  
+  }
+  
+  &__complemento {
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  &__parrafos {
+    font-family: $family;
+    font-size: $font15;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  &__beneficios {
+    font-size: $font20;
+  }
+  
+}

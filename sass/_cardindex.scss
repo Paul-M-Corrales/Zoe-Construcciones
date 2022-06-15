@@ -1,0 +1,15 @@
+
+.card_section {
+    padding-top: 3rem;
+    background-color: $backcard;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  img.card-img-top {
+    height: 200px;
+  }
+  
+  .card-body {
+    background-color: $card;
+  }
