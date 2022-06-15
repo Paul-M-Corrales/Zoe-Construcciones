@@ -16,7 +16,7 @@
   
   &__titulo {
     text-align: center;
-    font-size: $font40;
+    font-size: 40px;
     font-family: $family;
     color: white;
     padding-top: 1rem;
@@ -31,14 +31,14 @@
   
   &__parrafos {
     font-family: $family;
-    font-size: $font15;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
   &__beneficios {
-    font-size: $font20;
+    font-size: 20px;
   }
   
 }

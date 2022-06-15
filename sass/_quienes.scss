@@ -1,7 +1,7 @@
 .quienes {
     -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    font-size: $font50;
+    font-size: 50px;
     font-family: $family;
     text-align: center;
   
@@ -56,7 +56,7 @@
   
   
   &__p {
-    font-size: $font30;
+    font-size: 30px;
     font-family: $family;
     text-align: center;
   }

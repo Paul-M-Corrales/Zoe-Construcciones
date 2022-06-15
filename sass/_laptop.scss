@@ -1,0 +1,44 @@
+@media screen and (max-width: 1430px) {
+    .logo {
+      height: 50px;
+    }
+  
+    .contenedor__div {
+      display: grid;
+  
+    }
+  
+    .menu {
+      text-decoration: none;
+      color: gray;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 10px;
+  
+    }
+  
+    .header__ul {
+      list-style: none;
+  
+  
+    }
+  
+    .parrafo_principal {
+      text-align: center;
+      font-size: 40px;
+      color: white;
+    }
+  
+    .quienes {
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+    }
+  
+    .steel__complemento {
+      margin: 10px 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+  
+  }
