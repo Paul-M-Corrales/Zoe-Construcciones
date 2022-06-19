@@ -19,7 +19,7 @@
     height: 100%;
     object-fit: cover;
   }
-  &__box &__hover{
+  &__box &__hover {
     width: 0%;
     height: 50vh;
     background-color: rgba(53,53,53,0.568);
@@ -30,6 +30,7 @@
     align-items: center;
     overflow: hidden;
   }
+  
   &__hover h1{
     color: $color;
     text-shadow: 1px 1px 1px black;

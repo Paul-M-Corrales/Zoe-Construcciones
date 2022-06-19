@@ -1,11 +1,18 @@
-$background: hsl(208, 100%, 97%);
+$background: (
+    fondo:#f0f8ff,
+    titulos :#1b273b,
+    card: hsl(33, 100%, 88%),
+    form: #453133
+);
 $black: hsl(0, 0%, 0%);
-$backtitulos:hsl(219, 37%, 17%);
 $color:hsl(208, 100%, 97%);
-$backcard:hsl(75, 6%, 87%);
-$card: hsl(33, 100%, 88%);
 $family:font-family roboto;
-$backformulario:hsl(354, 17%, 23%);
+$formfamily: colibri;
+@mixin title {
+    background-color: map-get($background,titulos);
+    color: $color;
+    text-align: center;
+}
 
 
 
