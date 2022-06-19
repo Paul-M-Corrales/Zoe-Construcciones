@@ -8,4 +8,5 @@ section.row.row-cols-4 {
   
   .card-body {
     background-color: map-get($background , card );
+    color: $color;
   }

@@ -114,7 +114,8 @@ img.card-img-top {
   height: 200px; }
 
 .card-body {
-  background-color: #ffe3c2; }
+  background-color: #415a77;
+  color: aliceblue; }
 
 .iconos {
   display: flex;
@@ -132,7 +133,8 @@ img.card-img-top {
 
 .steel {
   width: 100%;
-  background-image: url(../imagenes/background.jpg); }
+  height: 100%;
+  background-color: #e0e1dd; }
   .steel .img-fluid {
     display: block;
     margin: auto;
@@ -142,7 +144,7 @@ img.card-img-top {
     text-align: center;
     font-size: 40px;
     font-family: font-family roboto;
-    color: white;
+    color: black;
     padding-top: 1rem; }
   .steel__complemento {
     margin: 10px 10px;
