@@ -91,3 +91,12 @@
        
     }
   }
+  @media screen and (max-width: 520px) {
+    .steel__complemento {
+      margin: 10px 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+
+  }

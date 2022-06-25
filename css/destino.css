@@ -268,7 +268,7 @@ img.card-img-top {
   .steel__complemento {
     margin: 10px 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center; } }
 
 @media screen and (max-width: 768px) {
@@ -328,6 +328,12 @@ img.card-img-top {
     flex-direction: row; }
   .section__hover h1 {
     font-size: 0.5rem; } }
+
+@media screen and (max-width: 520px) {
+  .steel__complemento {
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 426px) {
   .logo {
