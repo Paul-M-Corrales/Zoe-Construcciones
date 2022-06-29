@@ -240,9 +240,6 @@ img.card-img-top {
 .contacto {
   text-align: center;
   font-size: 30px; }
-  .contacto__img {
-    display: flex;
-    justify-content: center; }
 
 .formulario {
   color: aliceblue;
@@ -419,10 +416,11 @@ img.card-img-top {
   .formulario {
     color: aliceblue;
     background-color: #443032;
-    padding: 0;
+    padding: 30px;
     margin-top: 50px;
     border-radius: 4px;
-    font-family: colibri; }
+    font-family: colibri;
+    height: 55vh; }
   header {
     background-image: none; }
   .carousel-inner {
