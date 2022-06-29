@@ -15,6 +15,10 @@ body {
 .logo {
   height: 80px; }
 
+.navbar-toggler-icon {
+  background-image: url(../imagenes/hamburguesa.png);
+  width: 100px; }
+
 .carousel-inner {
   display: flex;
   justify-content: flex-start; }
@@ -28,6 +32,9 @@ body {
   width: 800px;
   height: 500px;
   object-fit: cover; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: font-family roboto; }
 
 .titulos {
   display: none; }
@@ -70,6 +77,11 @@ body {
     background-color: #1b273b;
     color: aliceblue;
     text-align: center; }
+  .titulos__none {
+    font-size: 40px;
+    background-color: #1b273b;
+    color: aliceblue;
+    text-align: center; }
 
 .section {
   display: flex;
@@ -108,14 +120,17 @@ body {
     width: 100%; }
 
 section.row.row-cols-4 {
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px; }
 
 img.card-img-top {
   height: 200px; }
 
 .card-body {
   background-color: #415a77;
-  color: aliceblue; }
+  color: aliceblue;
+  font-family: font-family roboto; }
 
 .iconos {
   display: flex;
@@ -159,6 +174,9 @@ img.card-img-top {
   .steel__beneficios {
     font-size: 20px; }
 
+.card:hover {
+  transform: translateY(-3%); }
+
 .galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -178,7 +196,7 @@ img.card-img-top {
 .quienes {
   -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  font-size: 50px;
+  font-size: 60px;
   font-family: font-family roboto;
   text-align: center;
   /* ----------------------------------------------

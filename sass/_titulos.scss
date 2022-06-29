@@ -51,4 +51,8 @@
     margin-top: 0px;
    @include title;
   }
+  &__none{
+    font-size: 40px;
+    @include title;
+  }
 }
